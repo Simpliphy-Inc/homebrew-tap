@@ -13,6 +13,8 @@ Homebrew tap for Simpliphy tools.
 
 ### Install
 
+`brew tap Simpliphy-Inc/tap` adds Simpliphy's custom Homebrew source so Homebrew can find the `yggdrasil` cask.
+
 ```bash
 brew tap Simpliphy-Inc/tap
 brew install --cask Simpliphy-Inc/tap/yggdrasil
