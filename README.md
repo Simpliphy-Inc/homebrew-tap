@@ -25,12 +25,9 @@ xattr -dr com.apple.quarantine "$(brew --prefix)/Caskroom/yggdrasil"
 yggdrasil version
 ```
 
-If macOS shows "yggdrasil" Not Opened / "Apple could not verify...":
-
-```bash
-xattr -dr com.apple.quarantine "$(brew --prefix)/Caskroom/yggdrasil"
-yggdrasil version
-```
+If macOS shows "yggdrasil" Not Opened / "Apple could not verify...", rerun:
+`xattr -dr com.apple.quarantine "$(brew --prefix)/Caskroom/yggdrasil"`
+then run `yggdrasil version` again.
 
 ## Notes
 
