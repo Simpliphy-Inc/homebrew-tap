@@ -18,6 +18,17 @@ Homebrew tap for Simpliphy tools.
 ```bash
 brew tap Simpliphy-Inc/tap
 brew install --cask Simpliphy-Inc/tap/yggdrasil
+
+# One-time Gatekeeper unblock (until notarization is added)
+xattr -dr com.apple.quarantine "$(brew --prefix)/Caskroom/yggdrasil"
+
+yggdrasil version
+```
+
+If macOS shows "yggdrasil" Not Opened / "Apple could not verify...":
+
+```bash
+xattr -dr com.apple.quarantine "$(brew --prefix)/Caskroom/yggdrasil"
 yggdrasil version
 ```
 
