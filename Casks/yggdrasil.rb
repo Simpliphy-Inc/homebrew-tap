@@ -13,7 +13,7 @@ cask "yggdrasil" do
 
   on_macos do
     on_arm do
-      url "https://github.com/Simpliphy-Inc/yggdrasil/releases/download/v#{version}/yggdrasil_#{version}_darwin_arm64.tar.gz"
+      url "https://github.com/Simpliphy-Inc/homebrew-tap/releases/download/v#{version}/yggdrasil_#{version}_darwin_arm64.tar.gz"
       sha256 "68694beca8b7d0b9f93890576fee2991d973e1df1da51d3d93ad770440525b14"
     end
   end
