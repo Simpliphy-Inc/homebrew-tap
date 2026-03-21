@@ -3,7 +3,7 @@ cask "yggdrasil" do
   name "yggdrasil"
   desc "Manage many local git worktrees per canonical repo."
   homepage "https://github.com/Simpliphy-Inc/yggdrasil"
-  version "0.1.12"
+  version "0.1.13"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,7 +14,7 @@ cask "yggdrasil" do
   on_macos do
     on_arm do
       url "https://github.com/Simpliphy-Inc/homebrew-tap/releases/download/v#{version}/yggdrasil_#{version}_darwin_arm64.tar.gz"
-      sha256 "d4dbf49358810f0c869defdf05ca06689ec9d13d8b7b07a7ff27951b37042f89"
+      sha256 "2eda905a8b4117178fa18f02dc482f51ccbb8eb44001261f57886c543ca566c8"
     end
   end
 
